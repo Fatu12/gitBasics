@@ -1,0 +1,47 @@
+THE BASICS
+    git- means virgin control system, it means that something you use on your computer to keep track of link your 
+    code to an online platform.
+#TERMINAL COMMAND BASICS
+# Terminal Command Basics
+    -ls - provedies a list of what in the current location
+    -ls -a -> shows hidden too
+    -pwd -> -show your what was on your previous (pwd) and where you are in your folder
+    -cd -> moves you around between folders(cd folder name)
+    -mkdir -> creates f folder (be sure to leave no spaces) (mkdir coding)
+    -rm -> remove or delete (rm file_name)
+    -rmdir -> to remove folder (rmdir coding)
+    -touch-> creates a blank file in given location (touch Dojo/index.html)
+    -coding(some computer) -> will either open requested file or create and open
+    - copy - cp thing new_thing
+    -mv -> (thing new/location/thing)
+## GIT COMMAND 
+    -git int -> creats a local repository(when using this create the git rpo with NO readme or getignore)
+    -git status -> shows what files have been added, deleted, or modified since last talking ton github
+    - git add(file name) or * or .(* and . will add all change)-gitignore doesn't always get added through * or.
+    - git cone -> https://(token)@github.com(rest of repo like).git 
+    - git commit-> (git commit -m 'saving during session') between quotes goes a relevent message and this 
+    command creates a snapshot
+    -git push -> pushes the committed changes to github or other version control services
+    -git pull -> brings all changes on the remote repo down to your device
+    to add the repo link to a repo you created locally first-> git remote set-url origin https://
+    <token>@github.com/<username>/<reponame>.git
+    -git checkout -b newBranch -> to create new branch
+    Just adding
+    create a new repository on the command line
+        -echo "# gitBasics" >> README.md
+        git init  -is going to make tha dot get you need it and it initialize an empty git repository 
+        git add README.md - means hey add this to this file(add file_name) or if you want to add everything 
+        in your folder (git add .)
+        git commit -m "first commit" -(git commit -m " 1 folder and indext")
+        git branch -M main
+        git remote add origin https://github.com/Fatu12/gitBasics.git
+        git push -u origin main
+    push an existing repository from the command line
+        git remote add origin https://github.com/Fatu12/gitBasics.git
+        git branch -M main - cahanging that name of the branch to me
+        git push -u origin main
+            
+
+        
+
+
