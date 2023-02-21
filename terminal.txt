@@ -19,7 +19,7 @@ THE BASICS
     -git status -> shows what files have been added, deleted, or modified since last talking ton github
     - git add(file name) or * or .(* and . will add all change)-gitignore doesn't always get added through * or.
     - git cone -> https://(token)@github.com(rest of repo like).git 
-    - git commit-> (git commit -m 'saving during session') between quotes goes a relevent message and this 
+    - git commit -m -> (git commit -m 'saving during session') between quotes goes a relevent message and this 
     command creates a snapshot
     -git push -> pushes the committed changes to github or other version control services
     -git pull -> brings all changes on the remote repo down to your device
@@ -29,13 +29,8 @@ THE BASICS
     Just adding
     create a new repository on the command line
         -echo "# gitBasics" >> README.md
-        git init  -is going to make tha dot get you need it and it initialize an empty git repository 
-        git add README.md - means hey add this to this file(add file_name) or if you want to add everything 
-        in your folder (git add .)
-        git commit -m "first commit" -(git commit -m " 1 folder and indext")
-        git branch -M main
-        git remote add origin https://github.com/Fatu12/gitBasics.git
-        git push -u origin main
+        
+        gin main
     push an existing repository from the command line
         git remote add origin https://github.com/Fatu12/gitBasics.git
         git branch -M main - cahanging that name of the branch to me
